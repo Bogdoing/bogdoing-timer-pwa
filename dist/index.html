@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="manifest" href="data:application/json;base64,ew0KICAgICJsYW5nIjogImVuLXVzIiwNCiAgICAibmFtZSI6ICJCb2dkb2luZyBUaW1lciIsDQogICAgInNob3J0X25hbWUiOiAiQm9nZG9pbmcgVGltZXIiLA0KICAgICJkZXNjcmlwdGlvbiI6ICJkZXNjcmlwdGlvbiIsDQogICAgInN0YXJ0X3VybCI6ICIvIiwNCiAgICAiYmFja2dyb3VuZF9jb2xvciI6ICIjMmYzZDU4IiwNCiAgICAidGhlbWVfY29sb3IiOiAiIzJmM2Q1OCIsDQogICAgIm9yaWVudGF0aW9uIjogImFueSIsDQogICAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsDQogICAgImljb25zIjogWw0KICAgICAgICB7DQogICAgICAgICAgICAic3JjIjogInB1YmxpYy9zdG9wd2F0Y2g1MTIucG5nIiwNCiAgICAgICAgICAgICJzaXplcyI6ICI1MTJ4NTEyIg0KICAgICAgICB9DQogICAgXQ0KfQ=="> <!--add pwa-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bogdoing Timer</title>
+    <script type="module" crossorigin src="/assets/index-e97d146e.js"></script>
+    <link rel="stylesheet" href="/assets/index-0ab82029.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    
+
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js', { scope: '/' });
+      }
+    </script>
+  </body>
+</html>
